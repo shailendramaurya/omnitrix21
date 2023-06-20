@@ -1,0 +1,29 @@
+[{
+		"Version": "0.1",
+		"Date": "20/11/23",
+		"Changelog": [
+			"1st change",
+			"2nd change",
+			"3rd change"
+		],
+		"MIUI": "miui.com",
+		"OSS": "oss.com",
+		"MIUI_SU": "su.miui.com",
+		"OSS_SU": "su.oss.com"
+	},
+	{
+		"Version": "0.1",
+		"Date": "20/11/23",
+		"Changelog": [
+			"1st change",
+			"2nd change",
+			"3rd change"
+		],
+		"MIUI": "miui.com",
+		"OSS": "oss.com",
+		"MIUI_SU": "su.miui.com",
+		"OSS_SU": "su.oss.com"
+
+	}
+
+]

@@ -1,5 +1,5 @@
 [{
-		"Version": "Not Specified",
+		"Version": "Latest",
 		"Date": "15-06-23",
 		"Changelog": [
 			"Updated KernelSU (11000)",
@@ -19,17 +19,31 @@
 		"OSS_SU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-15-0651.zip/download"
 	},
 	{
-		"Version": "0.1",
-		"Date": "20/11/23",
+		"Version": "2nd Last",
+		"Date": "07-06-23",
 		"Changelog": [
-			"1st change",
-			"2nd change",
-			"3rd change"
+			"Both KernelSU and Normal build are available",
+			"Updated KernelSU (10984)",
+			"Implemented DTS AUDIO DRIVER, use this module to use it",
+			"Implemented LiveDisplay KLAPSE Driver",
+			"Introduce simple low - memory killer for better ram management",
+			"Enabled MGLRU",
+			"Upstreamed to 4.14.317-RC1",
+			"Roms based on pulkit DT are supported now",
+			"Backport: rcu 5.4, zstd, fuse",
+			"Added adreno boost for performance",
+			"Simplified file blocker",
+			"Updates dev frequency boost drivers, etc",
+			"defconfig: Enable NTFS read/write",
+			"Merged latest caf/clo Tags",
+			"Roms based on neobuddy trees flash MIUI Variant",
+			"Nuke wakelock which was causing battery drain while connected to headphones",
+			"Literally too many changes, can't list them all"
 		],
-		"MIUI": "miui.com",
-		"OSS": "oss.com",
-		"MIUI_SU": "su.miui.com",
-		"OSS_SU": "su.oss.com"
+		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-06-07-1312.zip/download",
+		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-06-07-1312.zip/download",
+		"MIUI_SU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-06-07-1312.zip/download",
+		"OSS_SU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-07-1312.zip/download"
 
 	}
 

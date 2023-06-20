@@ -1,15 +1,22 @@
 [{
-		"Version": "0.1",
-		"Date": "20/11/23",
+		"Version": "Not Specified",
+		"Date": "15-06-23",
 		"Changelog": [
-			"1st change",
-			"2nd change",
-			"3rd change"
+			"Updated KernelSU (11000)",
+			"Upstreamed to 4.14.318",
+			"Increased threshold temperature for fast charging",
+			"Imported AW8624 and DRV2624 haptic drivers",
+			"Added haptic level adjustment & vibration controls",
+			"Fixed issues with haptics in brightness slider",
+			"Fixed deep sleep issues on some roms",
+			"Fixed some performance regressions",
+			"Crdroid users flash MIUI Variant",
+			"thanks @skillsetita"
 		],
-		"MIUI": "miui.com",
-		"OSS": "oss.com",
-		"MIUI_SU": "su.miui.com",
-		"OSS_SU": "su.oss.com"
+		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-06-15-0651.zip/download",
+		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-06-15-0651.zip/download",
+		"MIUI_SU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-06-15-0651.zip/download",
+		"OSS_SU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-15-0651.zip/download"
 	},
 	{
 		"Version": "0.1",

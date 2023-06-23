@@ -1,5 +1,5 @@
 [{
-		"Version": "Latest",
+		"Version": "R4",
 		"Date": "15-06-23",
 		"Changelog": [
 			"Updated KernelSU (11000)",
@@ -19,7 +19,7 @@
 		"OSS_SU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-15-0651.zip/download"
 	},
 	{
-		"Version": "2nd Last",
+		"Version": "R3",
 		"Date": "07-06-23",
 		"Changelog": [
 			"Both KernelSU and Normal build are available",

@@ -15,8 +15,8 @@
 		],
 		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-06-15-0651.zip/download",
 		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-06-15-0651.zip/download",
-		"MIUI_SU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-06-15-0651.zip/download",
-		"OSS_SU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-15-0651.zip/download"
+		"MIUI_KSU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-06-15-0651.zip/download",
+		"OSS_KSU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-15-0651.zip/download"
 	},
 	{
 		"Version": "R3-Beta",

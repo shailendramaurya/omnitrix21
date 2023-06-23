@@ -133,6 +133,7 @@ section {
   animation: slide 0.7s ease-out;
 }
 
+
 article {
   padding: 0.5rem 0;
   margin: 1rem;
@@ -185,6 +186,24 @@ button:active {
   margin: 5rem 1rem;
 }
 
+/* Changelog list */
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  padding: 0 10vw;
+}
+li{
+	margin-bottom: 1rem;
+}
+li:before {
+  content: "- ";
+}
+
+
+
+
+
 #about article{
 	color: var(--accent);
 }
@@ -202,7 +221,7 @@ button:active {
 }
 
 
-#faq summary{
+#faq details{
 	margin: 1rem 10vw 0 10vw;
 	text-align: left;
 }
@@ -268,13 +287,3 @@ footer a img {
   display: none;
 }
 
-ul {
-  text-decoration: none;
-  list-style-type: none;
-  text-align: left;
-  padding: 0 10vw;
-}
-
-li:before {
-  content: "- ";
-}

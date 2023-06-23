@@ -42,12 +42,12 @@ fetch('database.json')
 			oss.href = data.OSS;
 
 			const miuisu = document.createElement('a');
-			miuisu.textContent = 'MIUI-SU';
-			miuisu.href = data.MIUI_SU;
+			miuisu.textContent = 'MIUI-KSU';
+			miuisu.href = data.MIUI_KSU;
 
 			const osssu = document.createElement('a');
-			osssu.textContent = 'OSS-SU';
-			osssu.href = data.OSS_SU;
+			osssu.textContent = 'OSS-KSU';
+			osssu.href = data.OSS_KSU;
 
 			const linkSpan = document.createElement('span');
 			linkSpan.append(miui, oss, miuisu, osssu);

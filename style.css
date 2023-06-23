@@ -224,6 +224,7 @@ li:before {
 #faq details{
 	margin: 1rem 10vw 0 10vw;
 	text-align: left;
+	font-weight: bolder;
 }
 
 footer {

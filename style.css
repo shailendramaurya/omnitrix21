@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
 	--bg: white;
 	--text: black;
-	--header: linear-gradient(#fff7,#ddd7) ;
+	--header: linear-gradient(#fff7, #ddd7);
 	--accent: #ffa000;
 	--article: linear-gradient(#FAFAFA, #EEEEEE);
 	--article2: #fff7;
@@ -28,6 +29,15 @@
 	scroll-behavior: smooth;
 }
 
+i {
+	font-size: 2rem;
+	color: var(--accent)
+}
+
+#info i {
+	font-size: 5rem;
+}
+
 html,
 body {
 	margin: 0;
@@ -36,15 +46,72 @@ body {
 	color: var(--text);
 	background: var(--bg);
 }
+/*
+nav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+nav a.active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+nav.icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	nav a:not(:first-child) {
+		display: none;
+	}
+
+	nav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	nav.responsive {
+		position: relative;
+	}
+
+	nav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	nav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+*/
 
 header {
 	height: 4rem;
 	position: sticky;
 	top: 0;
 	z-index: 1;
-/*	box-shadow: 0 0.1rem 0.5rem #000a;*/
+	/*	box-shadow: 0 0.1rem 0.5rem #000a;*/
 	display: flex;
-	justify-content: space-between;
 	background-image: var(--header);
 	backdrop-filter: blur(0.5rem);
 	animation: shutter 0.5s;
@@ -73,21 +140,15 @@ header h1 kbd {
 }
 
 header span {
-	width: auto;
-	display: flex;
-	height: 4rem;
-}
-
-header span a {
+	width: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
+}
+header span a{
+	margin-right: 3vw;
 }
 
-header span a img {
-	height: 2rem;
-	width: 2rem;
-	margin-right: 1.5rem;
-}
 
 #info {
 	display: flex;
@@ -240,11 +301,13 @@ li:before {
 }
 
 footer {
-	margin-top: 10%;
-	padding: 10% 10vw;
+	padding: 5vw 10vw;
 	text-align: center;
 	font-weight: bold;
 	background-color: var(--section);
+}
+footer a:nth-of-type(1){
+	margin-right: 10vw;
 }
 
 footer a,
@@ -253,11 +316,6 @@ details a {
 	text-decoration: none;
 }
 
-footer a img {
-	height: 3rem;
-	width: 3rem;
-	margin: 0 1rem;
-}
 
 @media (min-width: 768px) {
 	#about div {

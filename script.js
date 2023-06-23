@@ -73,3 +73,9 @@ const observer = new IntersectionObserver(entries => {
 })
 
 document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
+
+/*
+document.querySelector('.icon').addEventListener('click', () => {
+	document.querySelector('nav').classList.toggle('responsive');
+});
+*/

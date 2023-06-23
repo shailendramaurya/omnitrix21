@@ -7,5 +7,8 @@ Currently deployed at [omnitrix21.github.io](https://omnitrix21.github.io)
 This was made possible only by our team web developers efforts
 
 
-# special thanks to -
-Animesh , Burhnan , Kamlesh , Omar
+## Electro Web Dev Team
+- **Animesh** : *Main Developer*
+- **Burhnan** : *Resources Integrator*
+- **Kamlesh** : *CSS, links improvements & Data Entry*
+- **[Omar](https://linktr.ee/Coptan)** : *Infocard improvements & codebase formatting*

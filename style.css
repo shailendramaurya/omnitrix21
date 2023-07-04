@@ -105,7 +105,7 @@ header span a {
 	background: var(--infocard);
 	width: 80%;
 	margin: 20vh 0;
-	padding: 5% 0;
+	padding: 5% 1rem;
 	font-size: 2rem;
 	color: var(--accent);
 	border-radius: 1rem;
@@ -315,4 +315,23 @@ details a {
 
 .hide {
 	display: none;
+}
+
+#dl{
+	background: var(--accent);
+	width: fit-content;
+	padding: 1rem 2rem;
+	margin:auto;
+	border-radius: 1rem;
+	transition: transform 0.5s;
+}
+#dl:hover{
+	transform: scale(1.2)
+}
+#dl a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 2rem;
+	color: #fffd;
+	user-select: none;
 }

@@ -1,5 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
 	--bg: white;
@@ -303,16 +303,7 @@ details a {
 	}
 }
 
-@keyframes bubble {
-	from {
-		opacity: 0;
-		transform: scale(0);
-	}
 
-	50% {
-		transform: scale(1.1);
-	}
-}
 
 .hide {
 	display: none;
@@ -339,13 +330,9 @@ details a {
 	user-select: none;
 }
 
-#releases h2 {
-	text-align: left;
-	padding-left:1rem;
-}
-
 #releases h2 a {
 	text-decoration: none;
 	color:var(--accent);
-	margin-right:calc(25% - 1rem);
+	position: absolute;
+	left:5%;
 }

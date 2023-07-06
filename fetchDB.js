@@ -62,14 +62,3 @@ fetch('database.json')
 	.catch(err => location.reload());
 
 
-// Onscroll animation
-
-const observer = new IntersectionObserver(entries => {
-	entries.forEach(entry => {
-		entry.isIntersecting ?
-			entry.target.classList.add('show') :
-			entry.target.classList.remove('show');
-	})
-})
-
-document.querySelectorAll('.hidden').forEach(el => observer.observe(el));

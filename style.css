@@ -1,5 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
 	--bg: white;
@@ -105,7 +105,7 @@ header span a {
 	background: var(--infocard);
 	width: 80%;
 	margin: 20vh 0;
-	padding: 5% 0;
+	padding: 5% 1rem;
 	font-size: 2rem;
 	color: var(--accent);
 	border-radius: 1rem;
@@ -173,9 +173,10 @@ button:active {
 	color: var(--text);
 }
 
-#releases h2{
+#releases h2 {
 	padding-top: 2rem;
 }
+
 #releases article span a {
 	font-weight: bold;
 	text-decoration: none;
@@ -302,17 +303,36 @@ details a {
 	}
 }
 
-@keyframes bubble {
-	from {
-		opacity: 0;
-		transform: scale(0);
-	}
 
-	50% {
-		transform: scale(1.1);
-	}
-}
 
 .hide {
 	display: none;
+}
+
+#dl {
+	background: var(--accent);
+	width: fit-content;
+	padding: 1rem 2rem;
+	margin: auto;
+	border-radius: 1rem;
+	transition: transform 0.5s;
+}
+
+#dl:hover {
+	transform: scale(1.2)
+}
+
+#dl a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 2rem;
+	color: #fffd;
+	user-select: none;
+}
+
+#releases h2 a {
+	text-decoration: none;
+	color:var(--accent);
+	position: absolute;
+	left:5%;
 }

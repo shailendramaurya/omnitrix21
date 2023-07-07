@@ -1,4 +1,18 @@
 [{
+		"Version": "R5-Stable",
+		"Date": "07-07-23",
+		"Changelog": [
+			"Upstreamed to v4.14.320",
+                        "Merged CAF Tag LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0 into audio",
+                        "Updated KernelSU to v11087",
+                        "Fixed some performance regressions"
+		],
+		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-07-07-0739.zip/download",
+		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-07-07-0739.zip/download",
+		"MIUI_KSU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-07-07-0739.zip/download",
+		"OSS_KSU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-07-07-0739.zip/download"
+	},
+        {
 		"Version": "R4-Stable",
 		"Date": "15-06-23",
 		"Changelog": [
@@ -45,20 +59,5 @@
 		"MIUI_KSU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-06-07-1312.zip/download",
 		"OSS_KSU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-06-07-1312.zip/download"
 
-	},
-        {
-		"Version": "R5-Stable",
-		"Date": "07-07-23",
-		"Changelog": [
-			"Upstreamed to v4.14.320",
-                        "Merged CAF Tag LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0 into audio",
-                        "Updated KernelSU to v11087",
-                        "Fixed some performance regressions"
-		],
-		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-07-07-0739.zip/download",
-		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-07-07-0739.zip/download",
-		"MIUI_KSU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-07-07-0739.zip/download",
-		"OSS_KSU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-07-07-0739.zip/download"
 	}
-
 ]

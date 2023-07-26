@@ -18,3 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
   const text = "Welcome to ElectroKernel for Sweet.\nBy Team Electro";
   typeWriterEffect(subHeading, subText, 100); // Adjust the speed as needed
 });
+

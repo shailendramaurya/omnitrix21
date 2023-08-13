@@ -1,4 +1,18 @@
 [{
+		"Version": "R6-Stable",
+		"Date": "10-08-23",
+		"Changelog": [
+			"Upstreamed to v4.14.321",
+			"Merged CAF Tag LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0 into audio",
+			"Updated KernelSU to latest version",
+			"Minor Fixes and all"
+		],
+		"MIUI": "https://sourceforge.net/projects/electro-sweet/files/miui/ElectroKernel-Miui-Stable-sweet-2023-08-11-0402.zip/download",
+		"OSS": "https://sourceforge.net/projects/electro-sweet/files/oss/ElectroKernel-OSS-Stable-sweet-2023-08-11-0402.zip/download",
+		"MIUI_KSU": "https://sourceforge.net/projects/electro-sweet/files/miui-su/ElectroKernel-KernelSU-Miui-Stable-sweet-2023-08-11-0402.zip/download",
+		"OSS_KSU": "https://sourceforge.net/projects/electro-sweet/files/oss-su/ElectroKernel-KernelSU-OSS-Stable-sweet-2023-08-11-0402.zip/download"
+	},
+        {  
 		"Version": "R5-Stable",
 		"Date": "07-07-23",
 		"Changelog": [

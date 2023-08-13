@@ -1,5 +1,3 @@
-// type.js
-
 function typeWriterEffect(element, text, speed = 70) {
   let i = 0;
   const typing = () => {
@@ -7,15 +5,12 @@ function typeWriterEffect(element, text, speed = 70) {
       element.textContent += text.charAt(i);
       i++;
       setTimeout(typing, speed);
+      speed--;
     }
   };
   typing();
 }
 
-// Call the function when the DOM content is loaded
-document.addEventListener('DOMContentLoaded', () => {
-  const heading = document.querySelector('.typing-heading');
-  const text = "Welcome to ElectroKernel for Sweet.\nBy Team Electro";
-  typeWriterEffect(subHeading, subText, 100); // Adjust the speed as needed
-});
-
+const element = typing.firstElementChild.firstElementChild;
+const text = "Welcome to ElectroKernel for Sweet.\nBy Team Electro";
+typeWriterEffect(element, text);

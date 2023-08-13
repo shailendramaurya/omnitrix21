@@ -27,10 +27,6 @@ const styles = `
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.hide {
-	display: none
-}
-
 button {
 	border-radius: 0.5rem;
 	height: 2rem;
@@ -76,15 +72,12 @@ ul {
 	list-style-type: none;
 	text-align: left;
 	padding: 0 10vw;
+	margin:0;
+	height:0;
+	overflow: hidden;
+	transition: height 150ms ease-in-out;
 }
 
-li {
-	margin-bottom: 1rem
-}
-
-li:before {
-	content: "- "
-}
 `;
 
 
@@ -99,8 +92,10 @@ customElements.define('release-item', class extends HTMLElement {
 		const date = document.createElement('p');
 		const changelogButton = document.createElement('button');
 		changelogButton.textContent = 'Changelog';
-		changelogButton.onclick = () => this.shadowRoot.querySelector('ul').classList.toggle('hide');
-
+		changelogButton.onclick = () => {
+			const ul = this.shadowRoot.querySelector('ul');
+			ul.style.height = ul.style.height ? '' : ul.scrollHeight + 'px';
+		}
 		span.append(
 			version,
 			date,
@@ -110,8 +105,6 @@ customElements.define('release-item', class extends HTMLElement {
 		style.textContent = styles;
 
 		const ul = document.createElement('ul');
-		ul.className = 'hide';
-
 		ul.appendChild(document.createElement('slot'))
 
 		this.shadowRoot.append(

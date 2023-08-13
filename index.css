@@ -93,6 +93,11 @@ header span a {
 	margin-right: 3vw;
 }
 
+#typing {
+	padding : 0 10vw;
+	animation: slide 2s ease-in;
+}
+
 
 #info {
 	display: flex;
@@ -178,20 +183,20 @@ article span {
 }
 
 
-#faq details {
+details {
 	margin: 1rem 10vw 0 10vw;
 	text-align: left;
 	font-weight: bolder;
 	user-select: none;
 }
 
-#faq summary {
+summary {
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
 	transition: background-color 0.3s ease-out;
 }
 
-#faq summary:hover {
+summary:hover {
 	background-color: var(--accent);
 }
 
@@ -215,6 +220,14 @@ details a {
 
 @media (min-width: 768px),
 (orientation:landscape) {
+	#info{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.infocard{
+		width:20%;
+	}
 	#about div {
 		display: flex;
 	}
@@ -222,6 +235,7 @@ details a {
 	#about article {
 		width: 100%;
 	}
+	
 }
 
 @keyframes shutter {
@@ -236,12 +250,12 @@ details a {
 		transform: translateY(100%);
 	}
 }
-
-
-
-.hide {
-	display: none;
+@keyframes appear{
+	from{
+		opacity:0;
+	}
 }
+
 
 #dl {
 	background: var(--accent);
@@ -261,23 +275,7 @@ details a {
 	font-weight: bolder;
 	font-size: 2rem;
 	color: #fffd;
+	cursor: none;
 	user-select: none;
 }
 
-#releases h2 a {
-	text-decoration: none;
-	color:var(--accent);
-	position: absolute;
-	left:5%;
-}
-.hidden {
-	opacity: 0;
-	transform: translateY(100%);
-	transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.show {
-	opacity: 1;
-	transform: none;
-	transition: opacity 0.5s ease, transform 0.5s ease;
-}

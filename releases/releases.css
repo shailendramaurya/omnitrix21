@@ -1,55 +1,63 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
-	@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
 
+:root {
+	--bg: white;
+	--text: black;
+	--accent: #ffa000;
+	--article: linear-gradient(#FAFAFA, #EEEEEE);
+	--article2: #fff7;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
 	:root {
-		--bg: white;
-		--text: black;
-		--accent: #ffa000;
-		--article: linear-gradient(#FAFAFA, #EEEEEE);
-		--article2: #fff7;
+		--bg: #212121;
+		--text: white;
+		--section: #424242;
+		--article: #616161;
+		--article2: #0007;
 	}
+}
 
-	/* Dark Mode */
-	@media (prefers-color-scheme: dark) {
-		:root {
-			--bg: #212121;
-			--text: white;
-			--section: #424242;
-			--article: #616161;
-			--article2: #0007;
-		}
-	}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Geologica;
+	color: var(--text);
+	background: var(--bg);
+}
 
-	html,
+h2 {
+	padding-top: 2rem;
+}
+
+h2 a {
+	text-decoration: none;
+	color: var(--accent);
+	position: absolute;
+	left: 5%;
+}
+
+li {
+	margin: 1rem 0;
+}
+
+li:before {
+	content: "- "
+}
+
+@media (min-width: 768px),
+(orientation:landscape) {
 	body {
-		margin: 0;
-		padding: 0;
-		font-family: Geologica;
-		color: var(--text);
-		background: var(--bg);
+		padding: 1rem 20vw
 	}
+}
 
-	h2 {
-		padding-top: 2rem;
+@keyframes slide {
+	from {
+		opacity: 0;
+		transform: translateY(100%);
 	}
-
-	h2 a {
-		text-decoration: none;
-		color: var(--accent);
-		position: absolute;
-		left: 5%;
-	}
-
-	@media (min-width: 768px),
-	(orientation:landscape) {
-		body {
-			padding: 1rem 20vw
-		}
-	}
-
-	@keyframes slide {
-		from {
-			opacity: 0;
-			transform: translateY(100%);
-		}
-	}
+}

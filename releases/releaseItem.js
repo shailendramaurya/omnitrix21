@@ -15,6 +15,7 @@ function linksGenerator() {
 	return linkSpan;
 }
 
+
 const styles = `
 :host {
 	display: block;
@@ -23,7 +24,7 @@ const styles = `
 	background: var(--article);
 	border-radius: 0.5rem;
 	width: auto;
-	animation: slide 0.5s ease-in-out;
+	animation: slide 0.5s ease-out;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
